@@ -8,7 +8,6 @@ export default function Home() {
             <EventInfoSection/>
             <PhotoGallery/>
             <FeaturesSection/>
-            <Sponsors/>
             <CallToAction/>
         </div>
     );
