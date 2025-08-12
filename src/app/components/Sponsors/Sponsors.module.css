@@ -1,0 +1,73 @@
+.section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: #666;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    min-width: 8rem;
+    text-align: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+    cursor: default;
+    user-select: none;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Цвета */
+.orange { color: #f97316; }
+.darkOrange { color: #ea580c; }
+.blue { color: #3b82f6; }
+.darkBlue { color: #1e40af; }
+.green { color: #10b981; }
+.purple { color: #8b5cf6; }
+.red { color: #ef4444; }
+.indigo { color: #6366f1; }
+.yellow { color: #eab308; }
+.teal { color: #14b8a6; }
+.pink { color: #ec4899; }
+.gray { color: #374151; }
+
+/* Размер */
+.large {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+@media (max-width: 700px) {
+    .section {
+        display: none;
+    }
+}
