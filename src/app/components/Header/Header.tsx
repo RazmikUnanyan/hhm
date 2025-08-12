@@ -33,8 +33,12 @@ export const Header = () => {
                             )}
                         </div>
                         <div>
-                            <h1 className={styles.title}>UTHealth Houston Half Marathon</h1>
-                            <p className={styles.subtitle}>October 26, 2025</p>
+                            {!isShrunk && (
+                                <>
+                                    <h1 className={styles.title}>UTHealth Houston Half Marathon</h1>
+                                    <p className={styles.subtitle}>October 26, 2025</p>
+                                </>
+                            )}
                         </div>
                     </div>
 
